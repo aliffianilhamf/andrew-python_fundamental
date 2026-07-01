@@ -68,7 +68,7 @@ fav_day = "Senin"
 hated_day = "Minggu"
 # 2. Buat variable yang menampung 1 hari yang tidak kamu sukai 
 # 3. print dan jelaskan kenapa kamu suka hari itu dan tidak suka hari itu, cth : 
-# "Saya suka hari Senin karena semangat saya masih tinggi, dan saya tidak suka hari minggu, karena besoknya senin"
+# "Saya suka hari Senin karena semangat saya masih tinggi, dan saya tidak suka hariB minggu, karena besoknya senin"
 print(f"Saya suka hari {fav_day_why}, dan saya tidak suka hari {hated_day_why}")
 print(f"Saya suka hari {fav_day} karena semangat saya masih tinggi, dan saya tidak suka hari {hated_day}, karena besoknya {fav_day}")
 

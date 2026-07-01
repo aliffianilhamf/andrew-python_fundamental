@@ -34,7 +34,7 @@ print(f"Total yang harus di bayar {total_belanja - diskon}")
 
 """  
 Latihan 1. 
-- Membuat progran kalkulator sederhana
+- Membuat progran kalkulator sederhana 
 - memiliki 3 inputan
     1. Angka pertama, buat variable untuk menampung inputan angka pertama
     2. Operator, buat juga variable untuk menampung inputan operator (+, -, x, /)
@@ -49,3 +49,27 @@ Latihan 1.
         - tapi kalau angka_2 tidak nol, maka lakukan operasi pembagian seperti biasa.
 - Jika operator yang dipilih tidak valid, maka print "operator tida valid (+, -, x, /)"
 """
+
+print()
+angka_1 = float(input("Masukkan Angka pertama : "))
+operator = input("Masukkan Operator (+, / , x, -) :  ")
+angka_2 = float(input("Masukkan Angka Kedua : "))
+
+
+if (operator == '+') : 
+    hasil = angka_1 + angka_2
+    print(f"{angka_1} + {angka_2} = {hasil}")
+elif (operator == '-') : 
+    hasil = angka_1 - angka_2
+    print(f"{angka_1} - {angka_2} = {hasil}")
+elif (operator == 'x') : 
+    hasil = angka_1 * angka_2
+    print(f"{angka_1} * {angka_2} = {hasil}")
+elif (operator == '/') : 
+    if (angka_2 != 0):
+        hasil = angka_1 / angka_2
+        print(f"{angka_1} / {angka_2} = {hasil}")
+    else : 
+        print("Angka Kedua tidak boleh nol")
+else : 
+    print("Operator tidak valid (+, - , x, /)")
